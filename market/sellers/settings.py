@@ -118,13 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-
-MEDIA_URL = '/media/' # Создали отдельную папку для кранения всех картинок
-MEDIA_ROOT = BASE_DIR / 'media'
-
-
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
