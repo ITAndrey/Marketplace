@@ -2,16 +2,16 @@
 {% load static %}
 
 {% block css %}
-    <link href ='{% static "vendor/index.css" %}' rel='stylesheet'>
+    <link href ='{% static "index.css" %}' rel='stylesheet'>
 {% endblock  %}
 
 {% block content %}
     </header>
     <div id="slider-container">
         <div id="slider">
-            <div class="slide"><img src="{% static 'vendor/image/slide.png'%}" alt="Image 1"></div>
-            <div class="slide"><img src="{% static 'vendor/image/slide2.png'%}" alt="Image 2"></div>
-            <div class="slide"><img src="{% static 'vendor/image/slide.png'%}" alt="Image 3"></div>
+            <div class="slide"><img src="{% Media '/image/slide.png'%}" alt="Image 1"></div>
+            <div class="slide"><img src="{% Media '/image/slide2.png'%}" alt="Image 2"></div>
+            <div class="slide"><img src="{% Media '/image/slide.png'%}" alt="Image 3"></div>
             <!-- Добавьте дополнительные слайды по мере необходимости -->
         </div>
         <div class="slider-arrow prev" onclick="prevSlide()">&#9665;</div>
@@ -61,7 +61,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -73,7 +73,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -87,7 +87,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -99,7 +99,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -113,7 +113,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -125,7 +125,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -139,7 +139,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -151,7 +151,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -165,7 +165,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -177,7 +177,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -191,7 +191,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -203,7 +203,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -217,7 +217,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -229,7 +229,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">
@@ -243,7 +243,7 @@
                 <div class="cont">
                     <p class="new">new</p>
                     <p class="skidka">-25%</p>
-                    <p><img id="photo" src="{% static 'vendor/image/photo.png'%}" alt="/"></p>
+                    <p><img id="photo" src="{% Media 'image/photo.png'%}" alt="/"></p>
                 </div>
                 <div class="prise">
                     <p id="orig">2222Р</p>
@@ -255,7 +255,7 @@
                     </p>
                 </div>
                 <div class="stars">
-                    <img src="{% static 'vendor/image/stars.svg'%}" alt="/">
+                    <img src="{% Media 'image/stars.svg'%}" alt="/">
                     <p id="opisanie">1 336</p>
                 </div>
                 <div class="dostavka">

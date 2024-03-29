@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{% static 'vendor/index.css'%}" rel="stylesheet">
+    <link href="{% static 'index.css'%}" rel="stylesheet">
     <title>WB</title>
 
     {% block css %}{% endblock  %}
@@ -20,7 +20,7 @@
             <div id="header_container">
                 <div class="gorod">
                     {% comment %} <p id="gorod"><img src="./image/geo.svg" alt="/" />Оренбург</p> {% endcomment %}
-                    <p id="gorod"><img src="{% static 'vendor/image/geo.svg'%}" alt="/" />Оренбург</p>
+                    <p id="gorod"><img src="{% Media '/image/geo.svg'%}" alt="/" />Оренбург</p>
                 </div>
                 <div class="sell">
                     <p>Продавайте на экспресс</p>
